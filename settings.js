@@ -32,13 +32,15 @@ global.APIs = {
 //Api Key\\
 global.APIKeys = {
 	'https://zenzapis.xyz': 'your key',
+Hide
+f52536de-7e15-4646-8c8a-1ee54729b3b3
 }
 
 
 //aumto functioner
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
+global.autoReadGc = true //auto reading in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
@@ -56,7 +58,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.vcardowner = ['
 212650529672'] //ur owner number
-global.ownername = "🦄Guts niggs" //ur owner name
+global.ownername = "🦄Guts niggas" //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
