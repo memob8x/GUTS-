@@ -1,0 +1,322 @@
+2022-08-15T19:18:23.745312+00:00 app[api]: Release v2 created by user memob8x@gmail.com
+2022-08-15T19:18:23.745312+00:00 app[api]: Enable Logplex by user memob8x@gmail.com
+2022-08-15T19:46:36.000000+00:00 app[api]: Build started by user memob8x@gmail.com
+2022-08-15T19:47:25.875074+00:00 app[api]: Release v3 created by user memob8x@gmail.com
+2022-08-15T19:47:25.875074+00:00 app[api]: Deploy cb0224eb by user memob8x@gmail.com
+2022-08-15T19:47:31.000000+00:00 app[api]: Build succeeded
+2022-08-15T19:48:46.588413+00:00 app[api]: Scaled to worker@1:Free by user memob8x@gmail.com
+2022-08-15T19:48:54.652197+00:00 heroku[worker.1]: Starting process with command `npm i -g pm2 && pm2 start xeon.js && pm2 save && pm2 logs`
+2022-08-15T19:48:55.252610+00:00 heroku[worker.1]: State changed from starting to up
+2022-08-15T19:48:56.307473+00:00 app[worker.1]: npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+2022-08-15T19:49:06.834834+00:00 app[worker.1]: npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+2022-08-15T19:49:08.767350+00:00 app[worker.1]: 
+2022-08-15T19:49:08.767360+00:00 app[worker.1]: added 183 packages, and audited 184 packages in 12s
+2022-08-15T19:49:08.767547+00:00 app[worker.1]: 
+2022-08-15T19:49:08.767577+00:00 app[worker.1]: 12 packages are looking for funding
+2022-08-15T19:49:08.767594+00:00 app[worker.1]:   run `npm fund` for details
+2022-08-15T19:49:08.768529+00:00 app[worker.1]: 
+2022-08-15T19:49:08.768530+00:00 app[worker.1]: found 0 vulnerabilities
+2022-08-15T19:49:08.979440+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979441+00:00 app[worker.1]:                         -------------
+2022-08-15T19:49:08.979442+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979442+00:00 app[worker.1]: __/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+2022-08-15T19:49:08.979442+00:00 app[worker.1]:  _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+2022-08-15T19:49:08.979442+00:00 app[worker.1]:   _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+2022-08-15T19:49:08.979443+00:00 app[worker.1]:    _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+2022-08-15T19:49:08.979443+00:00 app[worker.1]:     _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+2022-08-15T19:49:08.979444+00:00 app[worker.1]:      _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+2022-08-15T19:49:08.979444+00:00 app[worker.1]:       _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+2022-08-15T19:49:08.979444+00:00 app[worker.1]:        _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+2022-08-15T19:49:08.979444+00:00 app[worker.1]:         _\///______________\///______________\///__\///////////////__
+2022-08-15T19:49:08.979446+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979447+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979447+00:00 app[worker.1]:                           Runtime Edition
+2022-08-15T19:49:08.979447+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979447+00:00 app[worker.1]:         PM2 is a Production Process Manager for Node.js applications
+2022-08-15T19:49:08.979447+00:00 app[worker.1]:                      with a built-in Load Balancer.
+2022-08-15T19:49:08.979448+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979448+00:00 app[worker.1]:                 Start and Daemonize any application:
+2022-08-15T19:49:08.979448+00:00 app[worker.1]:                 $ pm2 start app.js
+2022-08-15T19:49:08.979448+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979448+00:00 app[worker.1]:                 Load Balance 4 instances of api.js:
+2022-08-15T19:49:08.979448+00:00 app[worker.1]:                 $ pm2 start api.js -i 4
+2022-08-15T19:49:08.979449+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979449+00:00 app[worker.1]:                 Monitor in production:
+2022-08-15T19:49:08.979449+00:00 app[worker.1]:                 $ pm2 monitor
+2022-08-15T19:49:08.979449+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979450+00:00 app[worker.1]:                 Make pm2 auto-boot at server restart:
+2022-08-15T19:49:08.979450+00:00 app[worker.1]:                 $ pm2 startup
+2022-08-15T19:49:08.979450+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979450+00:00 app[worker.1]:                 To go further checkout:
+2022-08-15T19:49:08.979451+00:00 app[worker.1]:                 http://pm2.io/
+2022-08-15T19:49:08.979451+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979451+00:00 app[worker.1]: 
+2022-08-15T19:49:08.979451+00:00 app[worker.1]:                         -------------
+2022-08-15T19:49:08.979451+00:00 app[worker.1]: 
+2022-08-15T19:49:09.088996+00:00 app[worker.1]: [PM2] Spawning PM2 daemon with pm2_home=/app/.pm2
+2022-08-15T19:49:09.295903+00:00 app[worker.1]: [PM2] PM2 Successfully daemonized
+2022-08-15T19:49:09.312277+00:00 app[worker.1]: [PM2] Starting /app/xeon.js in fork_mode (1 instance)
+2022-08-15T19:49:09.326960+00:00 app[worker.1]: [PM2] Done.
+2022-08-15T19:49:09.353756+00:00 app[worker.1]: ┌─────┬─────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+2022-08-15T19:49:09.353764+00:00 app[worker.1]: │ id  │ name    │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+2022-08-15T19:49:09.353764+00:00 app[worker.1]: ├─────┼─────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+2022-08-15T19:49:09.353765+00:00 app[worker.1]: │ 0   │ xeon    │ default     │ 4.0.0   │ fork    │ 44       │ 0s     │ 0    │ online    │ 0%       │ 25.5mb   │ u21011   │ disabled │
+2022-08-15T19:49:09.353765+00:00 app[worker.1]: └─────┴─────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2022-08-15T19:49:09.802741+00:00 app[worker.1]: [PM2] Saving current process list...
+2022-08-15T19:49:09.806336+00:00 app[worker.1]: [PM2] Successfully saved in /app/.pm2/dump.pm2
+2022-08-15T19:49:10.009762+00:00 app[worker.1]: [TAILING] Tailing last 15 lines for [all] processes (change the value with --lines option)
+2022-08-15T19:49:10.017127+00:00 app[worker.1]: /app/.pm2/pm2.log last 15 lines:
+2022-08-15T19:49:10.017313+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: Process dump file    : /app/.pm2/dump.pm2
+2022-08-15T19:49:10.017366+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: Concurrent actions   : 2
+2022-08-15T19:49:10.017488+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: SIGTERM timeout      : 1600
+2022-08-15T19:49:10.017541+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: ===============================================================================
+2022-08-15T19:49:10.017596+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:10.017634+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] online
+2022-08-15T19:49:10.017746+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:10.017788+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:10.017821+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] online
+2022-08-15T19:49:10.017935+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:10.017975+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:10.018006+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] online
+2022-08-15T19:49:10.018046+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:10.018080+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:09: PM2 log: App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:10.018172+00:00 app[worker.1]: PM2        | 2022-08-15T19:49:10: PM2 log: App [xeon:0] online
+2022-08-15T19:49:10.018188+00:00 app[worker.1]: 
+2022-08-15T19:49:10.019118+00:00 app[worker.1]: /app/.pm2/logs/xeon-out.log last 15 lines:
+2022-08-15T19:49:10.019450+00:00 app[worker.1]: /app/.pm2/logs/xeon-error.log last 15 lines:
+2022-08-15T19:49:10.019503+00:00 app[worker.1]: 0|xeon     | /app/settings.js:57
+2022-08-15T19:49:10.019538+00:00 app[worker.1]: 0|xeon     | global.vcardowner = ['
+2022-08-15T19:49:10.019572+00:00 app[worker.1]: 0|xeon     |                      ^
+2022-08-15T19:49:10.019600+00:00 app[worker.1]: 0|xeon     | 
+2022-08-15T19:49:10.019627+00:00 app[worker.1]: 0|xeon     | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:10.019654+00:00 app[worker.1]: 0|xeon     |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:10.019759+00:00 app[worker.1]: 0|xeon     |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:10.019790+00:00 app[worker.1]: 0|xeon     |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:10.019821+00:00 app[worker.1]: 0|xeon     |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:10.019848+00:00 app[worker.1]: 0|xeon     |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:10.019873+00:00 app[worker.1]: 0|xeon     |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:10.019898+00:00 app[worker.1]: 0|xeon     |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:10.019926+00:00 app[worker.1]: 0|xeon     |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:10.019950+00:00 app[worker.1]: 0|xeon     |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:10.019975+00:00 app[worker.1]: 0|xeon     |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:10.019988+00:00 app[worker.1]: 
+2022-08-15T19:49:10.655701+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:10.655724+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:10.655747+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:10.655770+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:10.655795+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:10.655818+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:10.655835+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:10.655857+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:10.655876+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:10.655894+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:10.655913+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:10.655949+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:10.655952+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:10.655971+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:10.658669+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:10.660658+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:10.664988+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:10.787279+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:10.787294+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:10.787305+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:10.787316+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:10.787336+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:10.787355+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:10.787371+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:10.787505+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:10.787515+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:10.787529+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:10.787540+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:10.787553+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:10.787565+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:10.787576+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:10.790858+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:10.792802+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:10.797168+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:10.915623+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:10.915647+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:10.915673+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:10.915698+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:10.915721+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:10.915746+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:10.915769+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:10.915791+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:10.915813+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:10.915836+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:10.915858+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:10.915891+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:10.915893+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:10.915917+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:10.920295+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:10.922912+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:10.927297+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:11.050893+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:11.050897+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:11.050911+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:11.050928+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:11.050944+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:11.050961+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:11.050977+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:11.050995+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:11.051012+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:11.051028+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:11.051045+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:11.051061+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:11.051077+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:11.051093+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:11.056004+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:11.056960+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:11.062421+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:11.184439+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:11.184461+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:11.184484+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:11.184508+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:11.184523+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:11.184545+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:11.184566+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:11.184599+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:11.184601+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:11.184624+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:11.184641+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:11.184652+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:11.184675+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:11.184685+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:11.189184+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:11.191832+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:11.196405+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:11.324339+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:11.324354+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:11.324369+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:11.324387+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:11.324404+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:11.324422+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:11.324440+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:11.324453+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:11.324464+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:11.324481+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:11.324497+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:11.324523+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:11.324525+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:11.324537+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:11.329035+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:11.329971+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:11.334884+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:11.453064+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:11.453078+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:11.453090+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:11.453104+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:11.453117+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:11.453130+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:11.453143+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:11.453166+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:11.453179+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:11.453187+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:11.453201+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:11.453215+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:11.453236+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:11.453254+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:11.456853+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:11.458748+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:11.462989+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:11.750356+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:11.750367+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:11.750378+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:11.750392+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:11.750406+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:11.750420+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:11.750433+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:11.750447+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:11.750460+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:11.750473+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:11.750487+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:11.750501+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:11.750514+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:11.750547+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:11.753908+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:11.755824+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:11.760411+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:11.887741+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:11.887796+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:11.887812+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:11.887833+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:11.887852+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:11.887873+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:11.887893+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:11.887913+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:11.887933+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:11.887952+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:11.887972+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:11.887993+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:11.888012+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:11.888032+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:11.891240+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:11.893243+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:11.897383+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:12.018553+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:12.018566+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:12.018591+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:12.018612+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:12.018628+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:12.018649+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:12.018669+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:12.018685+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:12.018706+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:12.018725+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:12.018745+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:12.018762+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:12.018782+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:12.018798+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:12.022099+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:12.022914+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:12.027662+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:12.148557+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:12.148574+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:12.148599+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:12.148616+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:12.148634+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:12.148654+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:12.148672+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:12.148691+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:12.148705+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:12.148718+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:12.148732+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:12.148751+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:12.148765+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:12.148784+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:12.152247+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:12.152907+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:12.157211+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:12.281067+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:12.281092+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:12.281117+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:12.281142+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:12.281166+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:12.281209+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:12.281230+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:12.281255+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:12.281277+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:12.281299+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:12.281323+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:12.281343+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:12.281366+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:12.281392+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:12.285344+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:12.287426+00:00 app[worker.1]: PM2     | App [xeon:0] starting in -fork mode-
+2022-08-15T19:49:12.291742+00:00 app[worker.1]: PM2     | App [xeon:0] online
+2022-08-15T19:49:12.415430+00:00 app[worker.1]: 0|xeon  | /app/settings.js:57
+2022-08-15T19:49:12.415455+00:00 app[worker.1]: 0|xeon  | global.vcardowner = ['
+2022-08-15T19:49:12.415478+00:00 app[worker.1]: 0|xeon  |                      ^
+2022-08-15T19:49:12.415509+00:00 app[worker.1]: 0|xeon  | SyntaxError: Invalid or unexpected token
+2022-08-15T19:49:12.415529+00:00 app[worker.1]: 0|xeon  |     at Object.compileFunction (node:vm:352:18)
+2022-08-15T19:49:12.415551+00:00 app[worker.1]: 0|xeon  |     at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+2022-08-15T19:49:12.415572+00:00 app[worker.1]: 0|xeon  |     at Module._compile (node:internal/modules/cjs/loader:1069:27)
+2022-08-15T19:49:12.415595+00:00 app[worker.1]: 0|xeon  |     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15T19:49:12.415615+00:00 app[worker.1]: 0|xeon  |     at Module.load (node:internal/modules/cjs/loader:981:32)
+2022-08-15T19:49:12.415636+00:00 app[worker.1]: 0|xeon  |     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2022-08-15T19:49:12.415657+00:00 app[worker.1]: 0|xeon  |     at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-08-15T19:49:12.415679+00:00 app[worker.1]: 0|xeon  |     at Module.Hook._require.Module.require (/app/.heroku/node/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+2022-08-15T19:49:12.415701+00:00 app[worker.1]: 0|xeon  |     at require (node:internal/modules/cjs/helpers:102:18)
+2022-08-15T19:49:12.415724+00:00 app[worker.1]: 0|xeon  |     at Object.<anonymous> (/app/xeon.js:24:1)
+2022-08-15T19:49:12.430315+00:00 app[worker.1]: PM2     | App [xeon:0] exited with code [1] via signal [SIGINT]
+2022-08-15T19:49:12.430947+00:00 app[worker.1]: PM2     | Script /app/xeon.js had too many unstable restarts (16). Stopped. "errored"
